@@ -17,7 +17,7 @@ function App() {
     try {
       setLoading(true);
       setError(null);
-      const res = await axios.get("${API_URL}/todo/hi");
+      const res = await axios.get(`${API_URL}/todo/hi`);
       setTodos(res.data);
       console.log(res.data);
     } catch (err) {
@@ -38,7 +38,7 @@ function App() {
     if(!description.trim()) return;
     try {
       setError(null)
-      const res = await axios.post("${API_URL}/todo", {
+      const res = await axios.post(`${API_URL}/todo`, {
         description,
         completed: false,
       });
