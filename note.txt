@@ -1,0 +1,19 @@
+first i have make two folder backend and fronted
+
+then in second step i have install node.js in backend
+
+in third step i have installed express pg cors
+
+now 4 step i have to make app name server or index name or whateve you said and 
+this is the file is the entry point and first run
+in this i have noticed in line 6 and line 10 why not res.json and json when have to use so its reall use i can take it
+one question
+app.listen(5500,()=>{
+    console.log("Server start listening at 5500")
+})
+
+in this code why after 5500 after () empty parenthsis is their.
+
+now 5 step in pg admin i have created table  name of todo
+
+then 6 step i have created db.js file for database  
